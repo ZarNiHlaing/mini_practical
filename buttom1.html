@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;1,100;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<style>
+    *{
+        font-family: serif;
+    }
+    .btn{
+        background-color: skyblue;
+        color: white;
+        padding: 10px;
+        border: 3px solid black;
+        /* border-radius: 10px; */
+        text-decoration: none;
+      
+    }
+
+    .btn:active{
+        background-color: black;
+        transition:2s;
+    }
+    .btn-primary{
+        background-color: brown;
+        color: white;
+    }
+    .btn-primary:active{
+        background-color: blue;
+        color: black;
+        transition: 2s;
+    }
+
+    .btn-secondary{
+        background-color: yellow;
+        color: white;
+    } 
+    .btn-secondary:hover{
+        background-color: brown;
+        color: white;
+        transition: 2s;
+    }
+    
+    .btn-third{
+        background-color: green;
+        color: white;
+    }
+
+    .btn-third:hover{
+        background-color: blue;
+        color: black;
+        transition: 2s;
+    }
+    
+    .btn-outline-primary:hover{
+        background-color: brown;
+        transition: 1s;
+border-radius: 50%;
+    }
+
+    .rounded{
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <button class="btn rounded" >click me</button>
+    <a class="btn btn-primary" href="#">register</a>
+
+    <hr>
+
+    <button class="btn btn-secondary rounded" > submit</button>
+    <button class=" btn btn-third">ok</button>
+    <br>
+
+    <hr>
+
+    <button class=" btn btn-outline-primary">
+   <i class="fas fa-home">  </i>
+
+    </button>
+
+    <button class=" btn btn-outline-primary" >
+        <i class="fas fa-car">  </i>
+     
+         </button>
+     
+
+</body>
+</html>

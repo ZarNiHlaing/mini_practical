@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;1,100;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      * {
+        font-family: "Courier New", Courier, monospace;
+      }
+      .title {
+        color: blue;
+      }
+      .title span {
+        color: brown;
+      }
+      tbody tr:hover {
+        background-color: #eee;
+      }
+
+      thead tr {
+        background-color: blue;
+        color: white;
+      }
+      thead th {
+        text-align: left;
+      }
+      tbody tr td:first-child {
+        background-color: rgb(113, 147, 160);
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      tr {
+        border: 1px solid black;
+      }
+      td,
+      th {
+        /* border: 1px solid black; */
+        padding: 10px 15px;
+      }
+      .one {
+        text-align: right;
+      }
+      .total {
+        text-align: right;
+      }
+      .cost {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <h4 class="title">Table <span>Css </span></h4>
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Name</th>
+          <th>id</th>
+          <th>address</th>
+          <th>cost</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td class="one">Aye Aye</td>
+          <td class="one">12345</td>
+          <td class="one">myanmar</td>
+          <td class="one">$20001</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="one">puttha</td>
+          <td class="one">123</td>
+          <td class="one">thai</td>
+          <td class="one">$2000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="one">bae</td>
+          <td class="one">12</td>
+          <td class="one">china</td>
+          <td class="one">$200</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td class="one">jakapan</td>
+          <td class="one">1234</td>
+          <td class="one">korea</td>
+          <td class="one">$2</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th class="total" colspan="4">summary</th>
+          <th class="cost">80000</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
